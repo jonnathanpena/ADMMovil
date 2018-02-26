@@ -1,0 +1,53 @@
+page-cargar {
+
+  .toolbar-title-md{
+    color: #fff;
+    text-align: justify;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+  div.input-wrapper ion-label.label.label-md h2 {
+    font-weight: bold;
+    color: #5a0c0c;
+    font-size: 0.8em;
+  }
+
+  .item-md h3, .item-md h4, .item-md h5, .item-md h6 {
+    margin: 2px 0;
+    font-size: 0.8em;
+    font-weight: normal;
+    line-height: normal;
+  }
+
+  .item-md p {
+    margin: 0 0 2px;
+    overflow: inherit;
+    font-size: 0.7em;
+    line-height: normal;
+    text-overflow: inherit;
+    color: #666;
+  }
+
+  ion-item.item.item-block.item-md {
+    cursor: pointer;
+  }
+
+  .list-md .item-block .item-inner {
+    border-bottom: 1px solid rgb(183, 145, 211);
+  }
+
+  ion-item.boton.item.item-block.item-md div.item-inner{
+    border: 0px;
+    padding: 0px;
+  }
+
+  ion-item.boton.item.item-block.item-md div.item-inner ion-label.label.label-md{
+    border: 0px;
+    margin: 0px;
+  }
+
+  button.disable-hover.item-button.button.button-md.button-default.button-default-md.button-block.button-block-md{
+    background: #5a0c0c;
+  }
+
+}

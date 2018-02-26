@@ -1,0 +1,88 @@
+<!--
+  Generated template for the IniciarPedidoPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-title>Iniciar Pedido</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+
+  <ion-searchbar (ionInput)="getCliente($event)" placeholder="Buscar cliente"></ion-searchbar>
+
+  <ion-list>
+    <ion-item *ngFor="let item of clientesSeleccionados">
+      <h2>{{item.nombre}}</h2>
+    </ion-item>
+  </ion-list>
+
+  <ion-list>
+    <ion-item-divider color="light">Datos del cliente</ion-item-divider>
+    <ion-item>
+      <ion-label>
+        <ion-icon name="keypad"></ion-icon>
+      </ion-label>
+      <ion-input clearInput type="text" placeholder="Número Documento"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>
+        <ion-icon name="contact"></ion-icon>
+      </ion-label>
+      <ion-input clearInput type="text" placeholder="Nombre"></ion-input>
+    </ion-item>
+  </ion-list>
+
+  <ion-list class="pedidos">
+    <ion-item-divider color="light">Pedidos</ion-item-divider>
+  </ion-list>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col col-6>
+        <h2>Nombre del producto</h2>
+        <p>
+          Descripción de la compra descripción de la compra descripción de la compra
+        </p>
+      </ion-col>
+      <ion-col col-2 style="text-align: center; display: flex; align-items: center;">
+        <ion-input type="number" class="cantidad"></ion-input>
+      </ion-col>
+      <ion-col col-2 style="text-align: center; display: flex; align-items: center;">
+        <h2 class="precio">$122</h2>
+      </ion-col>
+      <ion-col col-2 style="text-align: center; display: flex; align-items: center;">
+        <ion-icon class="borrar" name="trash"></ion-icon>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-grid class="totales">
+    <ion-row>
+      <ion-col col-3 offset-6>
+        Precio
+      </ion-col>
+      <ion-col col-3>
+        Precio
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col col-3 offset-6>
+        Precio
+      </ion-col>
+      <ion-col col-3>
+        Precio
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-fab bottom right>
+    <button ion-fab mini><ion-icon name="add"></ion-icon></button>
+  </ion-fab>
+
+</ion-content>

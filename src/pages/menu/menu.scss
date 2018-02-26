@@ -1,0 +1,35 @@
+page-menu {
+
+  ion-grid.grid {
+    padding: 0;
+  }
+
+  ion-card.card-md {
+    margin: 0;
+    min-height: 80px;
+    border-radius: 2px;
+    width: 100%;
+    cursor: pointer;
+    background: rgb(183, 145, 211);
+    color: #fff;
+    text-align: center;
+    font-size: 1em;
+  }
+
+  ion-card.card-md:hover {
+    background: #5a0c0c;
+  }
+
+  ion-icon {
+    display: inline-block;
+    font-size: 3em;
+  }
+
+  .card-md h3, .card-md h4, .card-md h5, .card-md h6 {
+    color: #fff;
+    margin: 2px 0;
+    font-size: 1.3em;
+    font-weight: normal;
+  }
+
+}

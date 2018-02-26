@@ -1,0 +1,99 @@
+page-iniciar-pedido {
+
+  .toolbar-title-md{
+    color: #fff;
+    text-align: justify;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+  .item-input .label-md, .item-select .label-md, .item-datetime .label-md {
+    font-size: 1.3em;
+    color: #5a0c0c;
+  }
+
+  .item-md-light, .item-divider-md-light {
+    background: rgb(183, 145, 211);
+    color: #fff;
+  }
+
+  ion-item.item.item-block.item-md.item-input {
+    border: 1px solid rgb(189, 189, 189);
+    margin-bottom: 10px;
+  }
+
+  .item-md.item-input.item-input-has-focus .item-inner,
+  .item-md.item-input.input-has-focus .item-inne{
+    border-bottom-color: transparent;
+    -webkit-box-shadow: inset 0 -1px 0 0 transparent;
+    box-shadow: inset 0 -1px 0 0 transparent;
+  }
+
+  .list-md .item-input.item-input-has-focus,
+  .list-md .item-input.input-has-focus {
+    border-bottom-color: transparent;
+    -webkit-box-shadow: inset 0 -1px 0 0 #5a0c0c;
+    box-shadow: inset 0 -1px 0 0 #5a0c0c;
+  }
+
+  .list-md .item-input.item-input-has-focus:last-child,
+  .list-md .item-input.input-has-focus:last-child {
+    border-bottom-color: transparent;
+    -webkit-box-shadow: inset 0 -1px 0 0 #5a0c0c;
+    box-shadow: inset 0 -1px 0 0 #5a0c0c;
+  }
+
+  ion-item.item.item-block.item-md.item-input {
+    margin-bottom: 0;
+  }
+
+  .fab-md {
+    background: #5a0c0c;
+  }
+
+  ion-list.pedidos {
+    margin-bottom: 0px;
+  }
+
+  ion-row {
+    border-bottom: 1px solid #5a0c0c;
+  }
+
+  [padding] h1:first-child, [padding] h2:first-child,
+  [padding] h3:first-child, [padding] h4:first-child,
+  [padding] h5:first-child, [padding] h6:first-child {
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #5a0c0c;
+  }
+
+  h2.precio {
+    margin-top: 11px;
+  }
+
+  p {
+    font-size: 0.7em;
+    text-align: justify;
+  }
+
+  ion-icon.borrar {
+    color: #5a0c0c;
+    font-size: 1.5em;
+    cursor: pointer;
+    margin-left: 80%;
+  }
+
+  ion-input.cantidad.input.input-md input.text-input.text-input-md {
+    border: 1px solid rgb(189, 189, 189);
+    margin: 0px;
+    width: 100%;
+  }
+
+  ion-grid.totales.grid {
+    margin-top: 20px;
+  }
+
+}
